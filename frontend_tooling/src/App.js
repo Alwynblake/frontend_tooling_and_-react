@@ -5,7 +5,7 @@ import Faker from 'faker';
 
 export default class App extends React.Component {
 constructor(props) {
-  super(props)
+  super(props);
   this.state = {};
   this.state.content = Faker.lorem.sentence();
 
