@@ -22,4 +22,7 @@
 *	Header
 
 ### Available Scripts
-In the terminal type: `npm start`
+In order to view frontend_tooling within the browser,
+in the terminal type: 
+##### `npm install`
+##### `npm start`
