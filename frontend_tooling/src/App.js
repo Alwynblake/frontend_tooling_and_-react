@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import { say } from 'cowsay-browser';
-// import Faker from './faker';
+import Faker from 'faker';
 
 export default class App extends React.Component {
-
+constructor(props) {
+  super(props)
+  this.state = {};
+  this.state.content = Faker.lorem.sentence();
+}
   render() {
-
 
 //   constructor(props) { // blake- think about props as html attributes
 //     // blake - everything we add as an attribute in JSX will
@@ -40,7 +43,7 @@ export default class App extends React.Component {
           {this.props.children}
           {/*<button onClick={this.newMoos}> click me</button>*/}
           <button id="reset"> Click Me</button>
-          <pre> {(say({text: 'moo'}))} </pre>
+          <pre> {(say({text: this.state.content}))} </pre>
         </div>
         // < button onClick = {this.newMoos} > click me < /button>
   )
