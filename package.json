@@ -7,7 +7,8 @@
     "react": "^16.8.6",
     "react-cowsay": "^0.1.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "cowsay-browser": "latest"
   },
   "scripts": {
     "start": "node_modules/.bin/react-scripts start",
