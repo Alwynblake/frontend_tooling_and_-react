@@ -11,15 +11,14 @@ constructor(props) {
 
 }
   render() {
-const handleClick = () => window.location.reload();
+const handleCowSay = () => window.location.reload();
 
     return (
         <div>
           <Header/>
-          <button onClick={handleClick}> Click Me</button>
+          <button onClick={handleCowSay}> Click Me</button>
           <pre> {(say({text: this.state.content}))} </pre>
         </div>
   )
       }
     };
-
