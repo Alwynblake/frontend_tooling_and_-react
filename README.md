@@ -9,7 +9,8 @@
 * renders a button on the browser
 * contains the entire application's view and state
 * has a property on the state called content
-* creates a view with the following display
+
+* creates a view with the following display:
 1.	A heading with the title "Generate Cowsay Lorem"
 2.	A Button that displays "click me"
 3. onClick the button generates new content on the app state using cowsay and faker
@@ -22,4 +23,8 @@
 *	Header
 
 ### Available Scripts
-In the terminal type: `npm start`
+In order to view frontend_tooling within the browser,
+in the terminal type: 
+##### `npm install`
+##### `npm start`
+
