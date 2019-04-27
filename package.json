@@ -1,5 +1,5 @@
 {
-  "name": "frontend_tooling",
+  "name": "frontend_tooling_and_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,13 +7,22 @@
     "react": "^16.8.6",
     "react-cowsay": "^0.1.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "cowsay-browser": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "react-scripts": "3.0.0",
+    "cowsay-browser": "latest"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/react-scripts start",
+    "build": "node_modules/.bin/react-scripts build",
+    "test": "node_modules/.bin/react-scripts test",
+    "eject": "node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
