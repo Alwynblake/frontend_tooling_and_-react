@@ -9,6 +9,7 @@
 * renders a button on the browser
 * contains the entire application's view and state
 * has a property on the state called content
+
 * creates a view with the following display:
 1.	A heading with the title "Generate Cowsay Lorem"
 2.	A Button that displays "click me"
@@ -26,3 +27,4 @@ In order to view frontend_tooling within the browser,
 in the terminal type: 
 ##### `npm install`
 ##### `npm start`
+

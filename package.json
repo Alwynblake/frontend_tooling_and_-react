@@ -7,6 +7,13 @@
     "react": "^16.8.6",
     "react-cowsay": "^0.1.0",
     "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
     "react-scripts": "3.0.0",
     "cowsay-browser": "latest"
   },
